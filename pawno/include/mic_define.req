@@ -1,0 +1,7 @@
+// Defines [ mic_define ]
+
+#define TakePlayerMoney(%1,%2); if(GetPlayerMoney(%1)>=%2){GivePlayerMoney(%1,-%2);}else{SendClientMessage(%1,0xAFAFAFAA,"SERVER: You dont have sufficient money(minimum: %2)"); break;}
+#define MAX_CHECKPOINTS 150
+#define MAX_PIKS MAX_OBJECTS
+#define MAX_ZONES 75
+#define worldid virtualid++

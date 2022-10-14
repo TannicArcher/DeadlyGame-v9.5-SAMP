@@ -1,0 +1,73 @@
+[2.1.2013 14:55:37]  Èãðîê [C]en[i](0) Ñìåíèë ñåáå íèê íà WaR
+[2.1.2013 14:57:18]  Èãðîê WaR(0) Ñìåíèë ñåáå íèê íà 222222
+[2.1.2013 15:17:9]  Èãðîê WaR_Ceni(1) Ñìåíèë ñåáå íèê íà 2222
+[2.1.2013 15:17:37]  Èãðîê SPIRIT_fes(0) Ñìåíèë ñåáå íèê íà àûôà
+[2.1.2013 15:18:15]  Èãðîê 2222(1) Ñìåíèë ñåáå íèê íà WaR..Tm_Ceni[B]
+[2.1.2013 15:58:3] 
+[2.1.2013 15:59:26]  Èãðîê sfasfas(0) Ñìåíèë ñåáå íèê íà dasffasdf
+[2.1.2013 20:11:18]  Èãðîê SPIRIT_fes(0) Ñìåíèë ñåáå íèê íà sadf4
+[2.1.2013 20:17:31]  Èãðîê WaR..Tm_Ceni[B](0) Ñìåíèë ñåáå íèê íà sdfsdsd
+[2.1.2013 20:18:8]  Èãðîê sdfsdsd(0) Ñìåíèë ñåáå íèê íà WaR..Tm_Ceni[B]
+[2.1.2013 20:43:34] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}[Ceni]
+[2.1.2013 20:44:11] *{FFFFFF}Èãðîê {FF0000}[Ceni](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_ceni[B]
+[2.1.2013 20:45:2] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[Z]
+[2.1.2013 20:45:48] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[Z](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[2.1.2013 22:38:16] *{FFFFFF}Èãðîê {FF0000}mama_lyba(1) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}HE_HADO
+[2.1.2013 22:39:55] *{FFFFFF}Èãðîê {FF0000}HE_HADO(1) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}NE_KRACiBO
+[2.1.2013 22:40:31] *{FFFFFF}Èãðîê {FF0000}NE_KRACiBO(1) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}ECT_admins
+[2.1.2013 22:45:0] *{FFFFFF}Èãðîê {FF0000}ECT_admins(1) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Ýòî_ÁÀÃ
+[3.1.2013 16:29:30] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Ceni
+[3.1.2013 16:29:58] *{FFFFFF}Èãðîê {FF0000}Ceni(0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[3.1.2013 16:34:26] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}cCnei
+[3.1.2013 16:38:51] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}DCesa
+[3.1.2013 21:7:2] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Cent
+[3.1.2013 21:7:25] *{FFFFFF}Èãðîê {FF0000}Cent(0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[10.3.2013 13:36:12] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Derere
+[10.3.2013 13:37:50] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceno
+[10.3.2013 13:38:21] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceno(0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[14.3.2013 18:54:50] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Kin
+[14.3.2013 18:56:32] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Frb
+[14.3.2013 19:5:21] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}CyKa
+[14.3.2013 19:6:25] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}rsefs
+[18.3.2013 19:4:33] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Nik
+[18.3.2013 19:5:13] *{FFFFFF}Èãðîê {FF0000}Nik(0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[18.3.2013 19:5:35] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni
+[18.3.2013 19:5:55] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni(0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[22.3.2013 18:18:23] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_3yCyJL[B]
+[22.3.2013 18:19:20] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_3yCyJL[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}233232
+[22.3.2013 18:19:34] *{FFFFFF}Èãðîê {FF0000}233232(0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_3yCyJl[B]
+[22.3.2013 18:20:9] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_3yCyJl[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[23.3.2013 21:28:49] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_KOTISHE[Z]
+[23.3.2013 21:29:24] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_KOTISHE[Z](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[10.4.2013 11:29:50] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Doodly
+[10.4.2013 11:30:41] *{FFFFFF}Èãðîê {FF0000}Doodly(0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[21.4.2013 16:10:18] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Ceni
+[21.4.2013 16:10:59] *{FFFFFF}Èãðîê {FF0000}Ceni(0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[21.4.2013 17:22:52] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Ceni
+[21.4.2013 17:23:47] *{FFFFFF}Èãðîê {FF0000}Ceni(0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[21.4.2013 17:24:22] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000})..Cen[i]..(
+[21.4.2013 17:24:39] *{FFFFFF}Èãðîê {FF0000})..Cen[i]..((0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[21.4.2013 18:6:24] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Ceni
+[21.4.2013 18:19:38] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Ceni2
+[22.4.2013 12:53:35] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Ceni7
+[31.12.2013 14:23:30] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}bcvbvxccxvxcv
+[31.12.2013 14:23:47] *{FFFFFF}Èãðîê {FF0000}bcvbvxccxvxcv(0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}àûâàû ;¹ÍÏ¹Ã¹Ð
+[4.1.2014 22:15:6] *{FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Cenie
+[4.1.2014 22:18:29] *{FFFFFF}Èãðîê {FF0000}Cenie(0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[2.2.2014 11:29:33] * {FFFFFF}Èãðîê {FF0000}WaR..Tm_Ne[k]iT(ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Doss
+[7.2.2014 23:41:5] * {FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}Ceni
+[7.2.2014 23:46:10] * {FFFFFF}Èãðîê {FF0000}Ceni(ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}De.Game()Ceni
+[7.2.2014 23:46:41] * {FFFFFF}Èãðîê {FF0000}De.Game()Ceni(ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}De.Game_[Ceni]
+[7.2.2014 23:48:44] * {FFFFFF}Èãðîê {FF0000}De.Game_[Ceni](ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}De_[Ceni]_Game
+[7.2.2014 23:49:57] * {FFFFFF}Èãðîê {FF0000}De_[Ceni]_Game(ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}De.[G]ame..Ceni
+[7.2.2014 23:50:52] * {FFFFFF}Èãðîê {FF0000}De.[G]ame..Ceni(ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}De[.]Game..Ceni
+[7.2.2014 23:52:48] * {FFFFFF}Èãðîê {FF0000}De[.]Game..Ceni(ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}De.[G]ame_-_Ceni
+[7.2.2014 23:53:40] * {FFFFFF}Èãðîê {FF0000}De[.]Game..Ceni(ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}De.(G)ame_.Ceni.
+[7.2.2014 23:55:16] * {FFFFFF}Èãðîê {FF0000}De.(G)ame_.Ceni.(ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}De.[G]ame_Ceni[Q]
+[7.2.2014 23:58:6] * {FFFFFF}Èãðîê {FF0000}De.[G]ame_Ceni[Q](ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}.De.[G]ame._Ceni[@]
+[7.2.2014 23:59:32] * {FFFFFF}Èãðîê {FF0000}.De.[G]ame._Ceni[@](ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}De.Game..Ceni
+[8.2.2014 0:5:8] * {FFFFFF}Èãðîê {FF0000}De.Game..Ceni(ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[8.2.2014 18:12:49] * {FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}[Sunny]Serere
+[8.2.2014 18:13:7] * {FFFFFF}Èãðîê {FF0000}[Sunny]Serere(ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]
+[10.2.2014 18:30:23] * {FFFFFF}Èãðîê {FF0000}WaR..Tm_Ceni[B](ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}[Sunny]Deerwer
+[10.2.2014 18:31:49] * {FFFFFF}Èãðîê {FF0000}[Sunny]Deerwer(ID: 0) {FFFFFF}Ñìåíèë ñåáå íèê íà {FF0000}WaR..Tm_Ceni[B]

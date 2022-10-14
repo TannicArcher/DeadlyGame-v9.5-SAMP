@@ -1,0 +1,288 @@
+//
+// Created: 04.11.06
+// Aurthor: Iain Gilbert
+//
+
+#if defined _admin_commands_included
+#endinput
+#endif
+
+#define _admin_commands_included
+#pragma library admin_commands
+#include "base"
+#include "utils\gtoutils"
+#include "player"
+#include "account"
+#include "race"
+
+public AdminCommandHandler(playerid,text[]) // process player commands
+{
+if (!IsPlayerConnected(playerid)) return 0;
+if (!IsPlayerAdmin(playerid))
+{
+return 0;
+}
+new cmd[20];
+new idx;
+set(cmd,strcharsplit(text, idx,strchar(" ")));
+if(strcomp(cmd, "/admin", true) == 0) return 0;
+
+set(cmd,strcharsplit(text, idx,strchar(" ")));
+
+if(strcomp(cmd, "broadcast", true) == 1)
+{
+new string[MAX_STRING];
+set(string,text);
+strdel(string, 0, idx);
+format(string,sizeof(string), lang_texts[12][1] ,string);
+SendClientMessageToAll(COLOUR_YELLOW, string);
+return 1;
+}
+
+if(strcomp(cmd, "givexp", true) == 1)
+{
+
+new receiverid;
+receiverid = strval(strcharsplit(text, idx,strchar(" ")));
+
+if ((receiverid < 0) || (receiverid >= MAX_PLAYERS))
+{
+SendPlayerFormattedText(playerid, lang_texts[12][2] , 0,COLOUR_RED);
+return 1;
+}
+
+if (IsPlayerConnected(receiverid) == 0)
+{
+SendPlayerFormattedText(playerid, lang_texts[12][3] , 0,COLOUR_RED);
+return 1;
+}
+
+new xpamount;
+xpamount = strval(strcharsplit(text, idx,strchar(" ")));
+
+if ((xpamount < -999999) || (xpamount == 0) || (xpamount > 999999))
+{
+SendPlayerFormattedText(playerid, lang_texts[12][4] , 0,COLOUR_RED);
+return 1;
+}
+
+GivePlayerXP(receiverid,xpamount,1);
+
+new string[MAX_STRING];
+
+if (xpamount > 0)
+{
+format(string,sizeof(string), lang_texts[12][5] ,oGetPlayerName(playerid),xpamount);
+SendPlayerFormattedText(receiverid,string, 0,COLOUR_XP_GOOD);
+
+format(string,sizeof(string), lang_texts[12][6] ,oGetPlayerName(receiverid),xpamount);
+SendPlayerFormattedText(playerid,string, 0,COLOUR_XP_GOOD);
+}
+else
+{
+format(string,sizeof(string), lang_texts[12][7] ,oGetPlayerName(playerid),xpamount);
+SendPlayerFormattedText(receiverid,string, 0,COLOUR_XP_GOOD);
+
+format(string,sizeof(string), lang_texts[12][8] ,oGetPlayerName(receiverid),xpamount);
+SendPlayerFormattedText(playerid,string, 0,COLOUR_XP_GOOD);
+}
+
+return 1;
+}
+
+
+if(strcomp(cmd, "givecash", true) == 1)
+{
+new receiverid;
+receiverid = strval(strcharsplit(text, idx,strchar(" ")));
+
+if ((receiverid < 0) || (receiverid >= MAX_PLAYERS))
+{
+SendPlayerFormattedText(playerid, lang_texts[12][9] , 0,COLOUR_RED);
+return 1;
+}
+
+if (IsPlayerConnected(receiverid) == 0)
+{
+SendPlayerFormattedText(playerid, lang_texts[12][10] , 0,COLOUR_RED);
+return 1;
+}
+
+new cashamount;
+cashamount = strval(strcharsplit(text, idx,strchar(" ")));
+
+if ((cashamount < -999999) || (cashamount == 0) || (cashamount > 999999))
+{
+SendPlayerFormattedText(playerid, lang_texts[12][11] , 0,COLOUR_RED);
+return 1;
+}
+
+oGivePlayerMoney(receiverid,cashamount,0);
+
+new string[MAX_STRING];
+
+if (cashamount > 0)
+{
+format(string,sizeof(string), lang_texts[12][12] ,oGetPlayerName(playerid),cashamount);
+SendPlayerFormattedText(receiverid,string, 0,COLOUR_XP_GOOD);
+
+format(string,sizeof(string), lang_texts[12][13] ,oGetPlayerName(receiverid),cashamount);
+SendPlayerFormattedText(playerid,string, 0,COLOUR_XP_GOOD);
+}
+else
+{
+format(string,sizeof(string), lang_texts[12][14] ,oGetPlayerName(playerid),cashamount);
+SendPlayerFormattedText(receiverid,string, 0,COLOUR_XP_GOOD);
+
+format(string,sizeof(string), lang_texts[12][15] ,oGetPlayerName(receiverid),cashamount);
+SendPlayerFormattedText(playerid,string, 0,COLOUR_XP_GOOD);
+}
+return 1;
+}
+
+if(strcomp(cmd, "jail", true) == 1)
+{
+
+new jailid;
+jailid = strval(strcharsplit(text, idx,strchar(" ")));
+
+if ((jailid < 0) || (jailid >= MAX_PLAYERS))
+{
+SendPlayerFormattedText(playerid, lang_texts[12][16] , 0,COLOUR_RED);
+return 1;
+}
+
+if (IsPlayerConnected(jailid) == 0)
+{
+SendPlayerFormattedText(playerid, lang_texts[12][17] , 0,COLOUR_RED);
+return 1;
+}
+
+Player[jailid][Jailed] = 1;
+
+new string[MAX_STRING];
+format(string,sizeof(string), lang_texts[12][18] ,oGetPlayerName(playerid));
+SendPlayerFormattedText(jailid,string, 0,COLOUR_RED);
+
+JailPlayer(jailid);
+return 1;
+}
+
+if(strcomp(cmd, "unjail", true) == 1)
+{
+
+new unjailid;
+unjailid = strval(strcharsplit(text, idx,strchar(" ")));
+
+if ((unjailid < 0) || (unjailid >= MAX_PLAYERS))
+{
+SendPlayerFormattedText(playerid, lang_texts[12][19] , 0,COLOUR_RED);
+return 1;
+}
+
+if (IsPlayerConnected(unjailid) == 0)
+{
+SendPlayerFormattedText(playerid, lang_texts[12][20] , 0,COLOUR_RED);
+return 1;
+}
+
+Player[unjailid][Jailed] = 0;
+
+new string[MAX_STRING];
+format(string,sizeof(string), lang_texts[12][21] ,oGetPlayerName(playerid));
+SendPlayerFormattedText(unjailid,string, 0,COLOUR_GREEN);
+
+UnJailPlayer(unjailid);
+return 1;
+}
+
+if(strcomp(cmd, "mute", true) == 1)
+{
+
+new muteid;
+muteid = strval(strcharsplit(text, idx,strchar(" ")));
+
+if ((muteid < 0) || (muteid >= MAX_PLAYERS))
+{
+SendPlayerFormattedText(playerid, lang_texts[12][22] , 0,COLOUR_RED);
+return 1;
+}
+
+if (IsPlayerConnected(muteid) == 0)
+{
+SendPlayerFormattedText(playerid, lang_texts[12][23] , 0,COLOUR_RED);
+return 1;
+}
+
+Player[muteid][Muted] = 1;
+
+new string[MAX_STRING];
+format(string,sizeof(string), lang_texts[12][24] ,oGetPlayerName(playerid));
+SendPlayerFormattedText(muteid,string, 0,COLOUR_RED);
+
+return 1;
+}
+
+if(strcomp(cmd, "unmute", true) == 1)
+{
+
+new unmuteid;
+unmuteid = strval(strcharsplit(text, idx,strchar(" ")));
+
+if ((unmuteid < 0) || (unmuteid >= MAX_PLAYERS))
+{
+SendPlayerFormattedText(playerid, lang_texts[12][25] , 0,COLOUR_RED);
+return 1;
+}
+
+if (IsPlayerConnected(unmuteid) == 0)
+{
+SendPlayerFormattedText(playerid, lang_texts[12][26] , 0,COLOUR_RED);
+return 1;
+}
+
+Player[unmuteid][Muted] = 0;
+
+new string[MAX_STRING];
+format(string,sizeof(string), lang_texts[12][27] ,oGetPlayerName(playerid));
+SendPlayerFormattedText(unmuteid,string, 0,COLOUR_GREEN);
+
+return 1;
+}
+
+return 0;
+}
+
+public AdminSpecialCommandHandler(playerid,text[])
+{
+if (!IsPlayerConnected(playerid)) return 0;
+
+if(text[0] == '@')
+{
+new string[MAX_STRING];
+strmid(string,text,1,strlen(text));
+new count = 0;
+for (new adminid=0; adminid<MAX_PLAYERS;adminid++)
+{
+if (IsPlayerAdmin(adminid))
+{
+new message[MAX_STRING];
+format(message,sizeof(message), lang_texts[12][28] ,oGetPlayerName(playerid),string);
+SendPlayerFormattedText(adminid,message, 0,COLOUR_RED);
+count++;
+}
+}
+if (count == 0)
+{
+SendPlayerFormattedText(playerid, lang_texts[12][29] , 0,COLOUR_RED);
+return 0;
+} else {
+new message[MAX_STRING];
+format(message,sizeof(message), lang_texts[12][30] ,string);
+SendPlayerFormattedText(playerid,message, 0,COLOUR_GREEN);
+return 0;
+}
+return 0;
+}
+return 0;
+}

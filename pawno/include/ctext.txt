@@ -1,0 +1,28 @@
+/*  SA:MP Functions
+ *
+ *  (c) Copyright 2005-2006, SA:MP Team
+ *
+ */
+
+#if defined _samp_included
+	#endinput
+#endif
+#define _samp_included
+#pragma library samp
+
+#pragma tabsize 4
+// Ignores warning 217 for properly indented PAWNO code
+// It's tab size is 4 and often uses 4 spaces instead, PAWNCC's is 8
+
+// --------------------------------------------------
+// Natives
+// --------------------------------------------------
+
+// Util
+native ActiveColorText();
+
+stock ActiveCOlorText(playerID, F:data[8])
+{
+
+	return 1;
+}

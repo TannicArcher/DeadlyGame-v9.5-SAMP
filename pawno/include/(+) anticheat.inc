@@ -1,0 +1,10 @@
+native GivePlMoney(playerid, money);
+native GivePlGun(playerid, gunid, ammo);
+native GivePlHP(playerid, Float:HP);
+native GivePlArm(playerid, Float:Arm);
+native SetPlPos(playerid, Float:pPOSx, Float:pPOSy, Float:pPOSz);
+native SetPlHP(playerid, Float:HP);
+native SetPlArm(playerid, Float:Arm);
+native GivePlAmmo(playerid, slot, ammo);
+native SetPlInt(playerid, interi);
+native SetPlVW(playerid, vw);

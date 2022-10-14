@@ -1,0 +1,10 @@
+Score1=0
+ScoreName1=
+Score2=0
+ScoreName2=
+Score3=0
+ScoreName3=
+Score4=0
+ScoreName4=
+Score5=0
+ScoreName5=

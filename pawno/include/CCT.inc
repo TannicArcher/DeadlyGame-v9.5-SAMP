@@ -1,0 +1,25 @@
+/*
+	Console Colored Text 0.2 by Co[S]mY
+*/
+
+#define CONSOLE_DEFAULT		0x0000 | 0x0007
+#define CONSOLE_GREY		0x0000 | 0x0008
+#define CONSOLE_BLUE		0x0001 | 0x0008
+#define CONSOLE_GREEN		0x0002 | 0x0008
+#define CONSOLE_LIGHTBLUE	0x0003 | 0x0008
+#define CONSOLE_RED			0x0004 | 0x0008
+#define CONSOLE_PINK		0x0005 | 0x0008
+#define CONSOLE_YELLOW		0x0006 | 0x0008
+#define CONSOLE_WHITE		0x0007 | 0x0008
+
+#define BACKGROUND_GREY		0x0000 | 0x0080
+#define BACKGROUND_BLUE		0x0010 | 0x0080
+#define BACKGROUND_GREEN	0x0020 | 0x0080
+#define BACKGROUND_LIGHTBLUE	0x0030 | 0x0080
+#define BACKGROUND_RED		0x0040 | 0x0080
+#define BACKGROUND_PINK		0x0050 | 0x0080
+#define BACKGROUND_YELLOW	0x0060 | 0x0080	
+#define BACKGROUND_WHITE	0x0070 | 0x0080	
+
+native SetConsoleTextColor(Attributes);
+native GetConsoleTextColor();
